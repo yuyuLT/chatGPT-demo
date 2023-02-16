@@ -6,8 +6,8 @@ This code is to try Go easily.
 
 1. git clone this code. 
 
-2. docker-compose build
+2. docker compose build
 
-3. docker-compose up -d
+3. docker compose up -d
 
-4. docker-compose exec app go run main.go
+4. docker compose exec app go run main.go
