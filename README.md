@@ -4,7 +4,7 @@ This code is to try Go easily.
 
 # How to use
 
-1. clone this repository. 
+1. clone this repository
 
 2. docker compose up -d
 
