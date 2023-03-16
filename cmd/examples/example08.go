@@ -5,7 +5,7 @@ import (
 )
 
 // 構造体を定義
-type Pokemon struct {
+type pokemon struct {
 	Id   int
 	Name string
 	Type string
@@ -13,14 +13,14 @@ type Pokemon struct {
 
 func main() {
 	// Pokemon型の構造体を宣言
-	var pokemon Pokemon
+	var charizard pokemon
 
 	// 構造体の各フィールドに値を代入
-	pokemon.Id = 6
-	pokemon.Name = "リザードン"
-	pokemon.Type = "ほのお"
+	charizard.Id = 6
+	charizard.Name = "リザードン"
+	charizard.Type = "ほのお"
 
-	fmt.Printf("図鑑No:%d\n", pokemon.Id)
-	fmt.Println(pokemon.Name)
-	fmt.Printf("タイプ:%s\n", pokemon.Type)
+	fmt.Printf("図鑑No:%d\n", charizard.Id)
+	fmt.Println(charizard.Name)
+	fmt.Printf("タイプ:%s\n", charizard.Type)
 }
