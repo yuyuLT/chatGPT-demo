@@ -12,7 +12,7 @@ type pokemon struct {
 }
 
 func main() {
-	// Pokemon型の構造体を宣言
+	// pokemon型の構造体を宣言
 	var charizard pokemon
 
 	// 構造体の各フィールドに値を代入
