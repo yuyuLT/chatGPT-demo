@@ -8,7 +8,7 @@ import (
 func main() {
 	fmt.Println("Hello, concurrency!")
 
-	go printMessage()
+	go printMessage1()
 	go printMessage2()
 
 	//3秒待つ
@@ -17,8 +17,8 @@ func main() {
 	fmt.Println("finish program!")
 }
 
-// 1秒待った後、メッセージを出力する関数
-func printMessage() {
+// 1秒待った後、メッセージを出力する関数1
+func printMessage1() {
 	time.Sleep(time.Second * 1)
 	fmt.Println("this is message 1")
 }
