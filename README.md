@@ -9,3 +9,5 @@ This code is to try Go easily.
 2. docker compose up -d
 
 3. docker compose exec app go run main.go
+
+# chatGPT-demo
